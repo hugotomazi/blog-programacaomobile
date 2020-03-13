@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+html,body{
+	width:100%;
+    height:100%;
+}
+
+body {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+#menu {
+    background-color: #17e3bd; 
+    text-align: center; 
+}
+
+#titulo {
+    padding: 50% 0;
+    width: 80%;
+}
+
+#conteudo {
+    overflow: auto;
+    height: 100%;
+    font-size: 14pt;
+}
+
+#titulo-post {
+    text-align: center;
+    padding: 50% 0;
+    
+}
+
+.btn-menu {
+    cursor: pointer;
+    line-height: 30px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+.btn-menu:hover {
+    font-weight: 700;
+}
