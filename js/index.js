@@ -2,30 +2,16 @@ $(document).ready(function() {
     let artigos = [{
         id: 1,
         link: 'artigos/1.txt',
-        titulo: 'Programação Web'
-    },
-    {
-        id: 2,
-        link: 'artigos/1.txt',
-        titulo: 'Programação Web'
-    },
-    {
-        id: 3,
-        link: 'artigos/1.txt',
-        titulo: 'Programação Web'
-    },
-    {
-        id: 4,
-        link: 'artigos/1.txt',
-        titulo: 'Programação Web'
+        titulo: 'Papel Planes (PWA)'
     }]
 
     function loadContent(url) {
         $.ajax({
             url: url,
             type: 'GET',
+            cache: false,
             success: function(content) {
-                console.log(content)
+                $('#conteudo').html(content)
             }
         })
     }
@@ -33,10 +19,7 @@ $(document).ready(function() {
     artigos.forEach(function(artigo) {
         $('#menu').append(`<a id="option-${artigo.id}">${artigo.titulo}</a><br/>`)
         let el = $(`#option-${artigo.id}`)
-        el.addClass('btn-menu')
-        el.on('click', function() {
-            loadContent(artigo.link)
-        })
+        el.addClass('btn-menu').on('click', () => loadContent(artigo.link))
     })
 
 
