@@ -10,6 +10,7 @@ $(document).ready(function() {
             url: url,
             type: 'GET',
             cache: false,
+            contentType: "charset=UTF-8",
             success: function(content) {
                 $('#conteudo').html(content)
             }
