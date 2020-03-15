@@ -3,6 +3,10 @@ $(document).ready(function() {
         id: 1,
         link: 'artigos/1.txt',
         titulo: 'Papel Planes (PWA)'
+    }, {
+        id: 2,
+        link: 'artigos/2.txt',
+        titulo: 'Progressive Web Apps'
     }]
 
     function loadContent(url) {
