@@ -1,0 +1,18 @@
+<br/><h2 style="text-align: center;">API's HTML 5 e Web Components</h2><br/>
+                <p>Em abril de 2010 o CEO da Apple (Steve Jobs) emitiu uma carta pública na qual anunciava que o Adobe Flash tornava-se cada vez mais desnecessário na Web devido a evolução do HTML5 que vinha sendo aprimorado desde 2008. Até então, muitos sites utilizavam o Adobe Flash em algum lugar, seja para tocar músicas ou exibir animações porém no ano seguinte, em novembro de 2011 a Adobe anunciou que iria parar o desenvolvimento do Flash para dispositivos móveis e focar seus esforços e recursos no desenvolvimento de ferramentas utilizando HTML5. Desde então o HTML5 vem sendo amplamente utilizado para diversos fins.</p>
+                <p>O HTML5 fornece diversas ferramentas e funcionalidades superiores ao HTML4.01 onde era amplamente utilizado até o ano de 2011. Com o HTML5 é possível utilizar API’s as quais as mesmas tornam possível realizar uma infinidade de coisas legais através do navegador. Segue abaixo algumas API’s HTML5:</p>
+
+                <p><b>Geolocalização:</b><br/>
+A API de Geolocalização torna possível a coleta de dados precisos da localização do dispositivo que o estiver utilizando (Latitude e Longitude). Isso torna possível por exemplo, criar um GPS no navegador.</p>
+
+<p><b>Web Sockets:</b><br/>
+A API de Web Socket é talvez uma das mais interessantes do HTML5. Com ela é possível realizar a comunicação direta entre o navegador e um servidor onde a troca de dados é feita em uma velocidade consideravelmente superior a requisições Web tradicionais. Isso permite que várias aplicações que necessitam de atualização de dados em tempo real seja viável para ser desenvolvida utilizando HTML.</p>
+
+<p><b>Battery Status:</b><br/>
+Está API permite que a aplicação receba dados referentes ao status da bateria do dispositivo onde a mesma poderia por exemplo se proteger de um desligamento inesperado do dispositivo e evitar a perda de dados ou algo do tipo.</p>
+
+<p><b>Web Notifications:</b><br/>
+Com esta API é possível criar notificações no dispositivo enquanto o usuário não o estiver utilizando para que o ajude a lembrar de algo ou talvez fazer com que aquele usuário volte a utilizar o aplicativo.</p>
+
+<p>Existem diversas outras API’s do HTML5 que tornam o desenvolvimento WEB muito mais dinâmico e vantajoso para empresas e negócios.</p>
+<p>O HTML5 implementou também uma tecnologia chamada Web Components a qual ajuda muito nós desenvolvedores. Os Web Components são componentes criados na página onde é possível reutiliza-los em qualquer lugar da aplicação, inclusive pode ser utilizado em outra aplicação. Isso traz um ganho de produtividade e tempo enormes no desenvolvimento. A tecnologia de Web Components trouxe para a web à arquitetura de projetos CBA (Component Based Architecture) a qual nos permite construir aplicações modularizadas e mais divididas facilitando a manutenção no futuro.</p>

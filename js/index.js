@@ -7,6 +7,10 @@ $(document).ready(function() {
         id: 2,
         link: 'artigos/2.txt',
         titulo: 'Progressive Web Apps'
+    }, {
+        id: 3,
+        link: 'artigos/3.txt',
+        titulo: "API's HTML 5 e Web Components"
     }]
 
     function loadContent(url) {
